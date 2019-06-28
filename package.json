@@ -1,0 +1,23 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjmax75/node-notes-app.git"
+  },
+  "author": "John Behan <behanj@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjmax75/node-notes-app/issues"
+  },
+  "homepage": "https://github.com/jjmax75/node-notes-app#readme",
+  "devDependencies": {},
+  "dependencies": {
+    "validator": "11.0.0"
+  }
+}
