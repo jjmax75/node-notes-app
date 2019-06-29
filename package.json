@@ -18,6 +18,6 @@
   "homepage": "https://github.com/jjmax75/node-notes-app#readme",
   "devDependencies": {},
   "dependencies": {
-    "validator": "11.0.0"
+    "chalk": "2.4.2"
   }
 }
