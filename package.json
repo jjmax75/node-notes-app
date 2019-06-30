@@ -18,6 +18,7 @@
   "homepage": "https://github.com/jjmax75/node-notes-app#readme",
   "devDependencies": {},
   "dependencies": {
-    "chalk": "2.4.2"
+    "chalk": "2.4.2",
+    "yargs": "13.2.4"
   }
 }
