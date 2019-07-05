@@ -29,6 +29,17 @@ const listNotes = () => {
 	}
 };
 
+const readNote = title => {
+	const notes = loadNotesFromFile();
+	const note = notes.find(note => note.title === title);
+	if (Boolean(note)) {
+		console.log(chalk.green(`Found note - ${title}`));
+		console.log(note.body);
+	} else {
+		console.log(chalk.red(`No note with title - ${title}`));
+	}
+};
+
 const removeNote = title => {
 	const notes = loadNotesFromFile();
 	const hasNote = notes.findIndex(note => note.title === title);
@@ -56,5 +67,6 @@ const saveNotesToFile = notes => {
 module.exports = {
 	addNote,
 	listNotes,
+	readNote,
 	removeNote,
 };
